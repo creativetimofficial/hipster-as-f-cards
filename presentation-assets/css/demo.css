@@ -1,0 +1,149 @@
+body{
+    background: #555;
+    
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.card{
+    box-shadow: -18px 19px 31px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+
+.subtitle{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 220px;
+    margin: 0 auto 10px;
+    line-height: 1.5;
+}
+
+.big-title p:first-child{
+    font-family: "Playfair Display","Helvetica Neue","Helvetica","Arial", serif;    
+}
+.big-title p:last-child{
+    font-family: "Playfair Display","Helvetica Neue","Helvetica","Arial", serif;    
+}
+
+.page-description,
+.page-description-footer{
+    text-align: center;
+    color: #EEEEEE;
+    font-family: "Raleway","Helvetica Neue",Arial,sans-serif;
+}
+
+.page-description-footer{
+    margin-top: 50px;
+    margin-bottom: 20px;    
+}
+.page-description-footer h2{
+    margin-top: 60px;
+    padding-bottom: 10px;
+}
+.page-description-footer .btn{
+    margin: 0 3px;
+}
+.page-description-footer .btn-social i{
+    margin-right: 7px;
+}
+
+.page-description-header{
+    height: 70vh;
+}
+
+.ct-heart{
+    color: #F74933;
+}
+.page-description-footer p{
+    text-align: center;
+    color: #eeeeee;
+    margin-top: 100px;
+}
+.page-description-footer a{
+    color: #FFFFFF;
+}
+
+.page-description-footer .social-area{
+    margin: 0 auto;
+}
+.page-description-footer > div{
+    display: inline-block;
+}
+
+.logo-container{
+    left: 50px;
+    position: absolute;
+    top: 20px;
+     z-index: 3;
+}
+.logo-container.full-screen-table-demo{
+    left: 13px;
+    top: 10px;
+}
+
+.logo-container .logo{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    width: 60px; 
+    float: left;
+}
+.logo-container .brand{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial, sans-serif;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px
+}
+.hipster-container{
+    max-width: 440px;
+    display: block;
+    border-radius: 10px;
+    padding: 20vh 80px;
+    margin: 0 auto;
+    
+}
+.hipster-container img{
+    width: 100%;
+    
+}
+h2.big-title{
+    font-size: 44px !important;
+    margin-top: 150px;
+}
+
+h1{
+    font-size: 38px;
+}
+
+h1 small{
+   color: #EEE;
+}
+
+
+
+@media (min-width: 979px){
+    
+    .card{
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 979px){
+    .page-description-footer .btn{
+        margin-bottom: 10px ;
+    }
+}
